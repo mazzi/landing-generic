@@ -29,7 +29,7 @@ Saves email and a timestamp into a mongoDB collection. Extensible (if you know h
 
 ### Development
 
-`USERNAME="leads_user" PASSWORD="leads_password" DATABASE="leads_database" DEBUG_MONGOOSE=true npm start`
+`USERNAME="leads_user" PASSWORD="leads_password" DATABASE="leads_database" HOSTNAME="mongo_hostname" DEBUG_MONGOOSE=true npm start`
 
 [http://localhost:3000](http://localhost:3000)
 
@@ -40,6 +40,3 @@ Saves email and a timestamp into a mongoDB collection. Extensible (if you know h
 * No independent `.css` files. Only inline styles on `index.html` file. 
 
 Decissions based on security and simplicity.
-
-
-
