@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    
+    <title>Landing page</title>
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+            font-style: normal;
+            font-size: 100%;
+            text-rendering: optimizelegibility;
+            text-shadow: none;
+            -moz-osx-font-smoothing: grayscale;
+            margin: 0px;
+        }
+        .first-section {
+            background-color: white;
+            color:black;
+            padding-top: 5%;
+            text-align: center;
+            height: 50%;
+            display: block;
+        }
+
+        .form {
+            margin-top: 5%;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+        .second-section {
+            background-color: #24598F;
+            color:white;
+            text-align: center;
+            height: 40%;
+            display: block;
+        }
+        .second-section h1,
+        .second-section h2,
+        .second-section h3 {
+            color: white;
+        }
+
+        .footer {
+            background-color: #23238E;
+            color: white;
+            height: 10%;
+            text-align: right;
+            padding-right: 10%;
+        }
+
+        .footer p {
+            margin: 0px;
+            padding: 1%;
+        }
+
+        .footer a {
+            color: white;
+        }
+
+        .headline {
+            width: 55%;
+            margin-left: auto;
+            margin-right: auto;
+            word-wrap: break-word;
+            font-size: 150%;
+            color: #23238E;
+        }
+        .summary {
+            font-size: 125%;
+            color: #24598F;
+        }
+
+        .description {
+            margin-left: 15%;
+            margin-right: 15%;
+            color:gray;
+            font-size: 120%;
+        }
+
+        input {
+            font-size: 100%;
+            border: 1px;
+            border-color: black;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 25%;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            border-style: solid;
+            height: 45px;
+        }
+
+        button {
+            background-color:#8F8F24;
+            color: black;
+            border: 0px;
+            font-size: 100%;
+            font-weight: 800;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            border-style: solid;
+            height: 51px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        label {
+            display: block;
+            text-align: center;
+            margin:25px;
+            color:#59248F;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #59248F;
+            color:white;
+        }
+
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            text-align: center;
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+            text-align: center;
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+            text-align: center;
+        }
+        :-moz-placeholder { /* Firefox 18- */
+            text-align: center;
+        }
+
+        .features {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 5%;
+            align-items: flex-start;
+        }
+
+        .features .one,
+        .features .two,
+        .features .three {
+            flex: 1 1 auto;
+            width: 33%;
+            margin: 2%;
+            font-size: 120%;
+            text-align: left;
+            padding-left: 2%;
+            padding-right: 2%; 
+        }
+
+        img {
+            fill: white;
+            display: block;
+            max-width: 70px;
+            max-height: 70px;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: 813px) {
+            .first-section {
+                height: 50%;
+            }
+            .headline {
+                width: 100%;
+                font-size: 100%;
+            }
+
+            .description {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+
+            .features {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                padding: 10%;
+                align-items: flex-start;
+            }
+
+            .features .one,
+            .features .two,
+            .features .three {
+                flex: 1 1 auto;
+                width: 100%;
+                margin: 2%;
+            }
+
+            input {
+                width: 80%;
+                text-align: center;
+            }
+
+            button {
+                display: block;
+                width: 80%;
+                margin-top: 10px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            form {
+                height: 170px;
+            }
+
+            label {
+                margin: 15px;
+            }
+
+            .footer {
+                text-align: center;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="first-section">
+            <div class="headline">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+            </div>
+            <div class="summary">
+                <h2>Egestas quis ipsum suspendisse</h2>
+            </div>
+            <div class="description">
+                <p>Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla.</p>
+                <p>Gravida neque convallis a cras semper auctor neque.</p>
+                <p> Id faucibus nisl tincidunt eget.</p>
+            </div>
+            <div class="form">
+                <form id="suscribe_form">
+                    <label id="msg" style="visibility: hidden;">&nbsp;</label>
+                    <input id="email" type="email" name="email" 
+                        placeholder="Tell us your email" 
+                        pattern="^([a-zA-Z0-9_\.\-])+@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$"
+                        required />
+                    <button id="button" onclick="return suscribe()">Suscribe</button> 
+                </form>
+            </div>
+        </div>
+
+        <div class="second-section">
+                <div class="features">
+                    <div class="one">
+                        <img src="./svg/shampoo-svgrepo-com.svg" alt="shampoo" />
+                        Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla.
+                        Gravida neque convallis a cras semper auctor neque. Id faucibus nisl tincidunt eget.
+                    </div>
+                    <div class="two">
+                        <img src="./svg/curled-black-long-female-hair-shape-svgrepo-com.svg" alt="female shape" />
+                        Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla.
+                        Gravida neque convallis a cras semper auctor neque. Id faucibus nisl tincidunt eget.
+                    </div>
+                    <div class="three">
+                        <img src="./svg/star-filled-fiveointed-shape-svgrepo-com.svg" alt="star" />
+                        Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla.
+                        Gravida neque convallis a cras semper auctor neque. Id faucibus nisl tincidunt eget.
+                    </div>
+                </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2019 Landing-Generic - <a href="mailto:info@info.com">Questions?</a></p>
+        </div>
+    </div>
+
+    <script>
+
+        function suscribeFailed() {
+            document.getElementById("msg").innerHTML="There was an error. Try again later."
+            document.getElementById("msg").style["visibility"] = "visible";
+            document.getElementById("email").value = ""
+            document.getElementById("button").disable = false;
+        }
+        function suscribeComplete() {
+            document.getElementById("msg").innerHTML="Thanks! We'll keep you updated.";
+            document.getElementById("msg").style["visibility"] = "visible";
+            document.getElementById("email").value = ""
+            document.getElementById("button").disable = false;
+        }
+        function suscribe() {
+            document.getElementById("msg").style["visibility"] = "hidden";
+            document.getElementById("button").disable = true;
+            if (document.getElementById("suscribe_form").checkValidity()) {
+
+                var data = {
+                    email: document.getElementById('email').value
+                }
+                var formData = JSON.stringify(data);
+
+                xhr = new XMLHttpRequest();
+                xhr.addEventListener("load", suscribeComplete);
+                xhr.addEventListener("error", suscribeFailed);
+                xhr.open("POST", '/suscribe', true); // FIXME for development if you don't use a reverse proxy
+                xhr.send(formData);
+
+                return false;
+            }
+        }
+    </script>   
+</body>
+</html>

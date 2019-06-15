@@ -1,0 +1,29 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Landing page to capture leads and save them on mongodb Atlas",
+  "engines": {
+    "node": "10.3.0"
+  },
+  "files": [
+    "*.js"
+  ],
+  "main": "suscribe.js",
+  "scripts": {
+    "start": "node suscribe.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazzi/landing.git"
+  },
+  "author": "Lautaro Mazzitelli <lmazzitelli@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazzi/landing/issues"
+  },
+  "homepage": "https://github.com/mazzi/landing#readme",
+  "dependencies": {
+    "mongoose": "^5.5.9"
+  }
+}
