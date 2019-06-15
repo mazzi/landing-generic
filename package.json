@@ -1,5 +1,5 @@
 {
-  "name": "landing",
+  "name": "landing-generic",
   "version": "1.0.0",
   "description": "Landing page to capture leads and save them on mongodb Atlas",
   "engines": {
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mazzi/landing.git"
+    "url": "git+https://github.com/mazzi/landing-generic.git"
   },
   "author": "Lautaro Mazzitelli <lmazzitelli@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mazzi/landing/issues"
+    "url": "https://github.com/mazzi/landing-generic/issues"
   },
-  "homepage": "https://github.com/mazzi/landing#readme",
+  "homepage": "https://github.com/mazzi/landing-generic#readme",
   "dependencies": {
     "mongoose": "^5.5.9"
   }
