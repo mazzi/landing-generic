@@ -5,7 +5,6 @@ A responsive landing page to capture email leads and measure your market.
 * **Free!** Heroku and MongoDB atlas trial accounts required
 * **Responsive** Get leads from mobile, tablet, desktop
 * **Customizable** Customize your project logos and images (you'll need some html/css knowledge).
-* **Google analytics** To measure when your audience is visiting.
 
 Saves email and a timestamp into a mongoDB collection. Extensible (if you know how to code) to capture information like name, phone, _whateveryouneed_.
 
@@ -40,3 +39,8 @@ Saves email and a timestamp into a mongoDB collection. Extensible (if you know h
 * No independent `.css` files. Only inline styles on `index.html` file. 
 
 Decissions based on security and simplicity.
+
+### Suggestions
+
+Add * **Google analytics** To measure when your audience is visiting.
+Add SEO.
