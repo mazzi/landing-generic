@@ -42,5 +42,5 @@ Decissions based on security and simplicity.
 
 ### Suggestions
 
-Add * **Google analytics** To measure when your audience is visiting.
+Add **Google analytics** To measure when your audience is visiting.
 Add SEO.
