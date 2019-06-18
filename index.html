@@ -283,17 +283,19 @@
 
     <script>
 
-        function suscribeFailed() {
-            document.getElementById("msg").innerHTML="There was an error. Try again later."
+        function showNotification() {
             document.getElementById("msg").style["visibility"] = "visible";
             document.getElementById("email").value = ""
             document.getElementById("button").disable = false;
         }
+
+        function suscribeFailed() {
+            document.getElementById("msg").innerHTML="Mmm, parece que hubo un problema. Proba de nuevo mas tarde."
+            showNotification();
+        }
         function suscribeComplete() {
-            document.getElementById("msg").innerHTML="Thanks! We'll keep you updated.";
-            document.getElementById("msg").style["visibility"] = "visible";
-            document.getElementById("email").value = ""
-            document.getElementById("button").disable = false;
+            document.getElementById("msg").innerHTML="¡Gracias! Te mantendremos al tanto del lanzamiento.";
+            showNotification();
         }
         function suscribe() {
             document.getElementById("msg").style["visibility"] = "hidden";
